@@ -1,0 +1,17 @@
+<html><head><title>401 Unauthorized</title></head>
+<body onload="unauthorizedAlert()">
+<center><h1>401 Unauthorized</h1></center>
+<hr><center>934.554.32.3/401.html</center><p id="demo"></p>
+
+<script>
+function myFunction() {
+  let text;
+  let input = prompt("IPV4 LOGIN:", "934.554.32.3");
+  if (input == null || input == "") {
+  	location.reload();
+  } else {
+    window.open("https://snowyguycode.github.io", "_self");
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script></body></html>
